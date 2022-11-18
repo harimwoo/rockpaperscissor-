@@ -40,10 +40,10 @@ function playRound(computerSelection, playerSelection){
   } 
 }
 
-function fiveGames(){
-    for(var i = 0; i < 5; i++){
+function playGame(){
+  
         var playerChoice = prompt("your move");
         var computerChoice = getComputerChoice();
         console.log(playRound(computerChoice, playerChoice));
-    }
+
 }
